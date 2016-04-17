@@ -2,7 +2,12 @@
 var userNumbers = [];
 
 function inputNumber () {
-  
+  var x = document.forms["numberForm"]["userNumbersInput"].value;
+  if (x == null || x == "") {
+    resetData();
+    alert("A number must be entered");
+    return;
+   }
   var userNumbersInput = document.getElementById("userNumbersInput").value;
 
  // if (userNumbersInput.length === 0) {
