@@ -65,3 +65,30 @@ div {
 form {
  text-align: center;
 }
+table,th,td {
+  border:1px solid black;
+}
+table, {
+  text-align: center;
+  width: 100%;
+}
+td {
+  width: 50%;
+}
+th, td {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+form {
+  width: 100%;
+  text-align: center;
+}
+form label {
+  padding: 0.5em;
+}
+form li {
+  padding-bottom: 0.5em;
+}
+#addForm {
+  display:none;
+}
