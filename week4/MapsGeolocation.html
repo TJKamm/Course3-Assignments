@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+    <meta charset="utf-8">
+    <title>HTML5 300 Assignments - Taylor Kamm</title>
+  </head>
+  
+  <body>
+    <header>
+      <h1>HTML5 300 Assignments</h1>
+      <h2>Taylor Kamm</h2>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Week 1</a></li>
+          <li><a href="week2/InMemoryDatabase.html">Week 2</a></li>
+          <li><a href="week3/NumbersandStrings.html">Week 3</a></li>
+          <li><a href="MapsGeolocation.html">Week 4</a></li>
+          <li><a href="#">Week 5</a></li>
+          <li><a href="#">Week 6</a></li>
+          <li><a href="#">Week 7</a></li>
+          <li><a href="#">Week 8</a></li>
+          <li><a href="#">Week 9</a></li>
+          <li><a href="#">Week 10</a></li>
+        </ul>
+      </nav>
+    </header>
+  
+    <article>
+      <h2>Maps &amp; Geolocation</h2>
+        <p>Please enter a location into the form below to see it on the map.</p>
+      <form name="locationForm" action="#" method="post">
+        <fieldset>
+          <ul>
+            <li>
+              <label for="latitudeInput">Enter Latitude:</label>
+              <input type="number" id="latitudeInput" min="-90" max="90" step="any" />
+            </li>
+            <li>
+              <label for="longitudeInput">Enter Longitude:</label>
+              <input type="number" id="longitudeInput" min="-180" max="180" step="any" />
+            </li>
+            <li>
+              <label for="zoomInput">Enter Zoom Level:</label>
+              <input type="number" id="zoomInput" min="1" max="19" required/>
+            </li>
+          </ul>
+          <input type="button" value="Submit" id="submit" onclick="inputData()" />
+          <input type="reset" value="Reset" onclick="resetData()" />
+        
+        </fieldset>
+      </form>
+       <div id="mapId" class="increasePadding"></div>
+      
+    </article>
+    
+    <footer>
+      <p>&copy; 2016 Taylor Kamm</p>
+    </footer>
+    
+    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+     <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="javascript/data4.js"></script>
+  </body> 
+</html>

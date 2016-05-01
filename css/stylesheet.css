@@ -94,8 +94,15 @@ form li {
   padding-bottom: 0.5em;
 }
 #addForm {
-  display:none;
+  display: none;
 }
 table.center {
   margin-left: 40%;
+}
+#mapid { 
+  height: 300px;
+}
+div.increasePadding {
+  padding: 15em;
+  margin: 1em;
 }
