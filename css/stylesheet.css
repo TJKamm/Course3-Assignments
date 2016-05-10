@@ -106,3 +106,14 @@ div.increasePadding {
   padding: 15em;
   margin: 1em;
 }
+#dragDropArea {
+  position: relative;
+  border: 2px solid black;
+  height: 300px;
+}
+img.drag {
+  position: absolute;
+}
+footer {
+  margin-top: 1em;
+}
