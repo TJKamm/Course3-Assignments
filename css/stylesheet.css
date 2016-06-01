@@ -119,5 +119,6 @@ img.drag {
   position: absolute;
 }
 footer {
+  clear: both;
   margin-top: 1em;
 }
